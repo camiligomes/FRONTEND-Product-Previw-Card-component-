@@ -22,3 +22,20 @@ body {
   background-color: white;
   margin: 0 1rem;
 }
+
+.img_container {
+  width: 50%;
+}
+
+.img_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.details_container {
+  width: 50%;
+  padding: 2rem;
+}
